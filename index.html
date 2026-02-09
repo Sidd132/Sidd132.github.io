@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<!--
+    SA: I, Sufyan Siddiqui, 400469024 certify that this material is my orignal work. 
+    No other person's work has been used without due acknowledgement.
+    I have also not made my work available to anyone else.    -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Forum&family=Instrument+Serif:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+    <!-- navbar -->
+    <nav class="top-nav">
+        <span style="color: white; text-align: left; font-weight: bold; flex: 1;">SUFYAN SIDDIQUI</span>
+        <a href="/index.html">Home</a>
+        <a href="/photography.html">Photography</a>
+        <a href="/contact.html">Contact Me</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- hero section -->
+        <div class="hero-section" style="display: flex; flex-direction: column; align-items: center;">
+            <div class="hero-content">
+
+                <div class="hero-text">
+                    <h1>Sufyan Siddiqui</h1>
+                    <p>Engineer by training. Photographer by curiosity.</p>
+                </div>
+
+                <div class="hero-image">
+                    <img src="pic.jpg" alt="hero-image" style="border-radius: 15px; width: 1000px;">
+                </div>
+            </div>
+
+            <div style="width: 70%; margin: 0 auto;">
+                <p style="text-align: center;">
+                    I am an Automation Engineering student with hands‑on experience in manufacturing, climate‑control
+                    systems, and technical problem‑solving. Through roles at Mitchelle Plastics and Mobile Climate
+                    Control,
+                    I’ve developed strong skills in process optimization, quality control, and working within fast‑paced
+                    engineering environments. My academic background in automation and chemical engineering, combined
+                    with
+                    business management training, gives me a balanced perspective that blends technical depth with
+                    practical
+                    decision‑making. I’m also actively involved in engineering design teams, including the McMaster Mars
+                    Rover Team, where I collaborate on real‑world robotics challenges. I’m driven by curiosity,
+                    continuous
+                    improvement, and the desire to build systems that are efficient, reliable, and intuitive.
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- education section -->
+        <section>
+            <h2 style="text-align: left; font-size: 36px;">Education</h2>
+            <div style="text-align: center;">
+
+                <div>
+
+                    <h3>McMaster University | December 2026</h3>
+                </div>
+            </div>
+            <div class="education-boxes">
+                <div class="education-box">
+
+                    <strong>B. Tech in Automation Engineering</strong>
+
+                </div>
+                <div class="education-box">
+
+                    <strong>Chemical Eng. Advanced Diploma</strong>
+
+                </div>
+                <div class="education-box">
+                    <strong>Minor in Business Management</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- work experience section -->
+        <section>
+            <h2 style="text-align: left; font-size: 36px;">Work Experience</h2>
+
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="exp-left">
+                        <div class="exp-text">
+                            <div class="exp-title">Automation Engineer</div>
+                            <div class="exp-subtitle">Mitchelle Plastics | May - Aug 2025</div>
+                            <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                                <li>Optimized PLC logic in CX-Programmer and RSLogix 5000, while implementing MQTT-based
+                                    data
+                                    exchange for secure, real-time IIoT monitoring, boosting machine cycle time by 25%
+                                    and overall
+                                    production throughput.</li>
+                                <li>Programmed and simulated FANUC robotic fixtures in RoboGuide, integrating safety
+                                    systems with
+                                    light curtains, interlocks and sensors with PLC control to meet CSA/OSHA standards.
+                                </li>
+                                <li>Developed vision-based quality inspection systems using high-resolution cameras,
+                                    Python-based
+                                    defect detection, and detailed AutoCAD and SolidWorks documentation to reduce
+                                    fixture defects
+                                    and enhance inspection reliability.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <button class="view-photos-btn" onclick="toggleDropdown('dropdown1')">View Photos</button>
+
+            <div class="photo-dropdown" id="dropdown1">
+                <div class="slideshow-container" id="slideshow1">
+                    <div class="slide-counter"><span class="current-slide">1</span> / <span
+                            class="total-slides">4</span></div>
+
+                    <div class="slide active">
+                        <img src="mp1.jpeg" alt="Mitchelle Plastics 1">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mp2.jpeg" alt="Mitchelle Plastics 2">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mp3.jpeg" alt="Mitchelle Plastics 3">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mp4.jpeg" alt="Mitchelle Plastics 4">
+                    </div>
+
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow1')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow1')">&#10095;</a>
+                </div>
+            </div>
+
+
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title">Test Engineer </div>
+                        <div class="exp-subtitle">Mobile Climate Control | May - Aug 2024</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Automated PLCs and HMIs in CLICK programming and CLICK HMI software to automate wind
+                                tunnel and
+                                test
+                                facility operations, optimizing airflow control.</li>
+                            <li>Consolidated PID control systems and electrical schematics in AutoCAD, integrating
+                                pneumatic
+                                actuators,
+                                solenoids, alongside thermocouples, RTDs, and DAQ units for test automation.</li>
+                            <li>Analyzed wind tunnel data and component performance through SolidWorks CAD modeling and
+                                FEA
+                                simulations
+                                (Thermal &amp; Linear Static Analysis), generating detailed engineering documentation
+                                and
+                                reports for design
+                                verification.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+
+            <button class="view-photos-btn" onclick="toggleDropdown('dropdown2')">View Photos</button>
+
+            <div class="photo-dropdown" id="dropdown2">
+                <div class="slideshow-container" id="slideshow2">
+                    <div class="slide-counter"><span class="current-slide">1</span> / <span
+                            class="total-slides">3</span></div>
+
+                    <div class="slide active">
+                        <img src="mcc1.jpeg" alt="Mobile Climate Control 1">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mcc2.jpeg" alt="Mobile Climate Control 2">
+                    </div>
+
+                    <div class="slide">
+
+                        <img src="mcc3.jpeg" alt="Mobile Climate Control 3">
+                    </div>
+
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow2')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow2')">&#10095;</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <h2 style="text-align: left; font-size: 36px;">Project Highlights</h2>
+
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title">Automatic Plant Watering System</div>
+                        <p class="exp-subtitle">Aug 2025</p>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li> Executed a Wi-Fi enabled Arduino (ESP32) in C++ with DHT22 temperature and humidity
+                                sensors to
+                                automate
+                                irrigation using real-time environmental data.</li>
+                            <li>Sent and visualized live sensor data via HTTPS POST requests to a secure web server
+                                using
+                                WiFiClientSecure,
+                                enabling
+                                remote monitoring and improving watering accuracy (±0.5 °C, 2–5% humidity) through
+                                calibrated
+                                feedback
+                                control.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title">Automated Conveyor Sorting System</div>
+                        <p class="exp-subtitle">Jun 2025</p>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li> Designed and programmed an automated conveyor sorting system in Sysmac Studio (Omron
+                                PLCs)
+                                using
+                                photoelectric sensors to classify products based on material and size.</li>
+                            <li>Integrated HMI visualization and real-time monitoring to optimize sorting logic and
+                                system
+                                efficiency, reducing manual handling time by 40% while ensuring consistent detection
+                                accuracy.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+        </section>
+
+        <section class="section">
+            <h2 style="text-align: left; font-size: 36px;">Extracurricular Activities & Leadership</h2>
+
+
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title">Electronics Design Team </div>
+                        <div class="exp-subtitle">McMaster Mars Rover Team | Sep 2024 - Feb 2025</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Engineered and tested rover electronics; handled PCB wiring, sensor integration, and
+                                Arduino-based
+                                subsystem, troubleshooting issues through iteration and ensuring subsystems met
+                                performance
+                                reliability.</li>
+                            <li>Streamlined and refined mechanical assemblies using SolidWorks; documented electrical
+                                architectures and
+                                design changes to support build and integration for a NASA-affiliated rover launch
+                                project.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <footer style="text-align: center;">
+        &#169;  Sufyan Siddiqui
+    </footer>
+
+
+
+
+    <script>
+        function toggleDropdown(dropdownId) {
+            const dropdown = document.getElementById(dropdownId);
+            dropdown.classList.toggle('active');
+        }
+
+        function changeSlide(direction, slideshowId) {
+            const slideshow = document.getElementById(slideshowId);
+            const slides = slideshow.getElementsByClassName('slide');
+            const counter = slideshow.querySelector('.current-slide');
+
+            let currentIndex = 0;
+            for (let i = 0; i < slides.length; i++) {
+                if (slides[i].classList.contains('active')) {
+                    currentIndex = i;
+                    slides[i].classList.remove('active');
+                    break;
+                }
+            }
+
+            currentIndex += direction;
+
+            if (currentIndex >= slides.length) {
+                currentIndex = 0;
+            } else if (currentIndex < 0) {
+                currentIndex = slides.length - 1;
+            }
+
+            slides[currentIndex].classList.add('active');
+            counter.textContent = currentIndex + 1;
+        }
+    </script>
+</body>
+
+</html>
