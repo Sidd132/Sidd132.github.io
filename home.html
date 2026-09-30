@@ -184,15 +184,15 @@
 
             <br>
 
-            <button class="view-photos-btn" onclick="toggleDropdown('dropdown1')">View Photos</button>
+            <button class="view-photos-btn" onclick="toggleDropdown('dropdown2')">View Photos</button>
 
-            <div class="photo-dropdown" id="dropdown1">
-                <div class="slideshow-container" id="slideshow1">
+            <div class="photo-dropdown" id="dropdown2">
+                <div class="slideshow-container" id="slideshow2">
                     <div class="slide-counter"><span class="current-slide">1</span> / <span
                             class="total-slides">4</span></div>
 
                     <div class="slide active">
-                        <img src="mp1.jpeg" alt="Mitchelle Plastics 1">
+                        <img src="mp4.jpeg" alt="Mitchelle Plastics 1">
                     </div>
 
                     <div class="slide">
@@ -204,11 +204,11 @@
                     </div>
 
                     <div class="slide">
-                        <img src="mp4.jpeg" alt="Mitchelle Plastics 4">
+                        <img src="mp1.jpeg" alt="Mitchelle Plastics 4">
                     </div>
 
-                    <a class="prev" onclick="changeSlide(-1, 'slideshow1')">&#10094;</a>
-                    <a class="next" onclick="changeSlide(1, 'slideshow1')">&#10095;</a>
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow2')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow2')">&#10095;</a>
                 </div>
             </div>
 
@@ -235,6 +235,22 @@
                     </div>
                 </div>
             </div><br>
+
+             <button class="view-photos-btn" onclick="toggleDropdown('dropdown3')">View Photos</button>
+
+            <div class="photo-dropdown" id="dropdown3">
+                <div class="slideshow-container" id="slideshow3">
+                    <div class="slide-counter"><span class="current-slide">1</span> / <span
+                            class="total-slides">1</span></div>
+
+                    <div class="slide active">
+                        <img src="Mitrex1.jpeg" alt="Mitrex">
+                    </div>
+
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow3')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow3')">&#10095;</a>
+                </div>
+            </div>
 
             <div class="experience-card">
                 <div class="exp-left">
@@ -264,28 +280,28 @@
                 </div>
             </div><br>
 
-            <button class="view-photos-btn" onclick="toggleDropdown('dropdown2')">View Photos</button>
+            <button class="view-photos-btn" onclick="toggleDropdown('dropdown4')">View Photos</button>
 
-            <div class="photo-dropdown" id="dropdown2">
-                <div class="slideshow-container" id="slideshow2">
+            <div class="photo-dropdown" id="dropdown4">
+                <div class="slideshow-container" id="slideshow4">
                     <div class="slide-counter"><span class="current-slide">1</span> / <span
                             class="total-slides">3</span></div>
 
                     <div class="slide active">
-                        <img src="mcc1.jpeg" alt="Mobile Climate Control 1">
+                        <img src="mcc3.jpeg" alt="Mobile Climate Control 1">
                     </div>
 
                     <div class="slide">
-                        <img src="mcc2.jpeg" alt="Mobile Climate Control 2">
+                        <img src="mcc1.jpeg" alt="Mobile Climate Control 2">
                     </div>
 
                     <div class="slide">
 
-                        <img src="mcc3.jpeg" alt="Mobile Climate Control 3">
+                        <img src="mcc2.jpeg" alt="Mobile Climate Control 3">
                     </div>
 
-                    <a class="prev" onclick="changeSlide(-1, 'slideshow2')">&#10094;</a>
-                    <a class="next" onclick="changeSlide(1, 'slideshow2')">&#10095;</a>
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow4')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow4')">&#10095;</a>
                 </div>
             </div>
 
@@ -346,12 +362,24 @@ interacted with the system. Ensured data consistency and efficient management of
         <section class="section">
             <h2 style="text-align: left; font-size: 36px;">Extracurricular Activities & Leadership</h2>
 
+<div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Events/Marketing Director</strong> </div>
+                        <div class="exp-subtitle">McMaster TCF Association | June 2026 - Present</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Directed the club’s marketing strategy and digital presence, creating targeted campaigns that increased student engagement and event turnout across McMaster’s campus.</li>
+                            <li>Planned and executed high‑impact events, managing logistics, budgeting, promotions, and team coordination to deliver smooth, well‑attended experiences  </li>
 
-
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<br>
             <div class="experience-card">
                 <div class="exp-left">
                     <div class="exp-text">
-                        <div class="exp-title">Design Team Lead </div>
+                        <div class="exp-title"><strong>Design Team Lead</strong> </div>
                         <div class="exp-subtitle">McMaster B. Tech Student Association | Oct 2022 - Sep 2025</div>
                         <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
                             <li>Led business planning, sales strategy, and digital marketing initiatives, increasing
@@ -366,26 +394,40 @@ interacted with the system. Ensured data consistency and efficient management of
                 </div>
             </div>
             <br>
-            <div class="experience-card">
+             <div class="experience-card">
                 <div class="exp-left">
                     <div class="exp-text">
-                        <div class="exp-title">Electronics Design Team </div>
+                        <div class="exp-title"><strong>Electronics Design Team</strong> </div>
                         <div class="exp-subtitle">McMaster Mars Rover Team | Sep 2024 - Feb 2025</div>
                         <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
-                            <li>Engineered and tested rover electronics; handled PCB wiring, sensor integration, and
-                                Arduino-based
-                                subsystem, troubleshooting issues through iteration and ensuring subsystems met
-                                performance
-                                reliability.</li>
-                            <li>Streamlined and refined mechanical assemblies using SolidWorks; documented electrical
-                                architectures and
-                                design changes to support build and integration for a NASA-affiliated rover launch
-                                project.</li>
+                            <li>Engineered and tested rover electronics; handled PCB wiring, sensor integration, and Arduino-based 
+subsystem, troubleshooting issues and ensuring subsystems met performance reliability.</li>
+                            <li>Streamlined and refined 12 mechanical assemblies using SolidWorks; documented electrical architecture 
+and design changes to support build and integration for a NASA-affiliated rover launch project.  </li>
 
                         </ul>
                     </div>
                 </div>
             </div>
+<br>
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Lead Project Manager</strong> </div>
+                        <div class="exp-subtitle">Deltahacks 9 Hackathon  | January 2025</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Led a team of 4 through a 48-hour build cycle managing task delegation, and final demo prep, while coding 
+key front-end interactions to hit the submission deadline with 4 core features fully functional.
+                            </li>
+                            <li>Generated an intuitive and visually appealing online learning platform using Figma and HTML. Enhanced 
+user comprehension by 10% and achieved 90% user satisfaction. </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+           
         </section>
     </div>
 
