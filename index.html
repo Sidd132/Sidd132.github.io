@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <title>Sufyan Siddiqui - Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Forum&family=Instrument+Serif:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+    <!-- navbar -->
+    <nav class="top-nav">
+        <span style="color: white; text-align: left; font-weight: bold; flex: 1;">SUFYAN SIDDIQUI</span>
+        <a href="/index.html">Home</a>
+        <a href="/photography.html">Photography</a>
+        <a href="/contact.html">Contact Me</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- hero section -->
+        <div class="hero-section" style="display: flex; flex-direction: column; align-items: center;">
+            <div class="hero-content">
+
+                <div class="hero-text">
+                    <h1>Sufyan Siddiqui</h1>
+                    <p>Engineer by training. Photographer by curiosity.</p>
+                </div>
+
+                <div class="hero-image">
+                    <img src="pic.jpg" alt="hero-image" style="border-radius: 15px; width: 1000px;">
+                </div>
+            </div>
+
+            <div style="width: 70%; margin: 0 auto;">
+                <p style="text-align: center;">
+                    I’m an Automation Engineering student with hands‑on experience in automated manufacturing and
+                    technical problem‑solving. Through roles at Mitchelle Plastics and Mobile Climate
+                    Control, I’ve developed strong skills in process optimization, quality control, and working within
+                    fast‑paced engineering environments. My academic background in automation and chemical
+                    engineering, supported by business management training, gives me a balanced perspective that blends
+                    technical depth with practical decision‑making.
+
+                    I’ve worked extensively with PLCs, robotics, and automated systems, applying both troubleshooting
+                    and system‑level thinking to improve reliability and efficiency. I was previously part of the
+                    McMaster Mars Rover Team, contributing to robotics‑focused design and engineering challenges.
+                    Outside of engineering, I enjoy photography, which gives me a creative outlet and sharpens my
+                    attention to detail. I’m driven by curiosity, continuous improvement, and the desire to build
+                    systems that are efficient, reliable, and intuitive.</p>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- education section -->
+        <section>
+            <h2 style="text-align: left; font-size: 36px;">Education</h2>
+            <div style="text-align: center;">
+
+                <div>
+
+                    <h3>McMaster University | December 2026</h3>
+                </div>
+            </div>
+            <div class="education-boxes">
+                <div class="education-box">
+
+                    <strong>B. Tech in Automation Engineering</strong>
+
+                </div>
+                <div class="education-box">
+
+                    <strong>Chemical Eng. Advanced Diploma</strong>
+
+                </div>
+                <div class="education-box">
+                    <strong>Minor in Business Management</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- work experience section -->
+        <section>
+            <h2 style="text-align: left; font-size: 36px;">Work Experience</h2>
+
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="exp-left">
+                        <div class="exp-text">
+                            <div class="exp-title"><strong>Building Automation Engineer Intern</strong></div>
+                            <div class="exp-subtitle">Siemens | May - Aug 2026</div>
+                            <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                                <li>Troubleshot and commissioned SCADA and Building Automation control systems across
+                                    10+ customer sites,
+                                    diagnosing 30 control faults down to sensor, wiring, or controller level through
+                                    root-cause analysis using
+                                    Desigo and ABT Site, analyzing fault and performance trend data in MATLAB, and
+                                    reducing repeat service
+                                    calls by 15%. </li>
+                                <li>Performed point-to-point I/O verification and control-schematic reconciliation on
+                                    25+ installations through
+                                    PPCL structured text, maintaining a SQL-based tracking database while working with
+                                    engineering and project
+                                    management to close out discrepancies ahead of handoff.
+                                </li>
+                                <li>Ran on-site functional checks and basic commissioning tasks alongside engineers and
+                                    technicians, catching
+                                    12 integration issues before go-live and cutting field rework time through tighter
+                                    coordination between
+                                    design intent and as-built systems.</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="view-photos-btn" onclick="toggleDropdown('dropdown1')">View Photos</button>
+
+            <div class="photo-dropdown" id="dropdown1">
+                <div class="slideshow-container" id="slideshow1">
+                    <div class="slide-counter"><span class="current-slide">1</span> / <span
+                            class="total-slides">4</span></div>
+
+                    <div class="slide active">
+                        <img src="Siemens4.jpeg" alt="Siemens 1">
+                    </div>
+
+                    <div class="slide">
+                        <img src="Siemens2.jpeg" alt="Siemens 2">
+                    </div>
+
+                    <div class="slide">
+                        <img src="Siemens3.jpeg" alt="Siemens 3">
+                    </div>
+
+                    <div class="slide">
+                        <img src="Siemens1.jpeg" alt="Siemens 4">
+                    </div>
+
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow1')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow1')">&#10095;</a>
+                </div>
+            </div>
+
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="exp-left">
+                        <div class="exp-text">
+                            <div class="exp-title"><strong>Automation Engineer</strong></div>
+                            <div class="exp-subtitle">Mitchelle Plastics | May - Aug 2025</div>
+                            <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                                <li>Overhauled and optimized PLC ladder logic and block diagrams in TIA Portal, Sysmac
+                                    Studio, CX-Programmer
+                                    and RSLogix 5000, integrating CAN bus communication between robotic fixtures and
+                                    control systems to
+                                    improve machine cycle time by 25% and increase production throughput. </li>
+                                <li>Designed a new conveyor layout and modified existing conveyor systems to accommodate
+                                    updated part
+                                    designs, applying 5S and cost-effectiveness analysis while working with cross
+                                    functional teams to integrate
+                                    changes into the final assembly line.
+                                </li>
+                                <li>Programmed and simulated FANUC robotic fixtures in RoboGuide and Kawasaki K-ROSET,
+                                    integrating safety
+                                    systems with light curtains, interlocks and sensors with PLC control, and developed
+                                    a vision-based quality
+                                    inspection system with 12-point inspection and Python-based defect detection to
+                                    reduce fixture defects. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <button class="view-photos-btn" onclick="toggleDropdown('dropdown2')">View Photos</button>
+
+            <div class="photo-dropdown" id="dropdown2">
+                <div class="slideshow-container" id="slideshow2">
+                    <div class="slide-counter"><span class="current-slide">1</span> / <span
+                            class="total-slides">4</span></div>
+
+                    <div class="slide active">
+                        <img src="mp4.jpeg" alt="Mitchelle Plastics 1">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mp2.jpeg" alt="Mitchelle Plastics 2">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mp3.jpeg" alt="Mitchelle Plastics 3">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mp1.jpeg" alt="Mitchelle Plastics 4">
+                    </div>
+
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow2')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow2')">&#10095;</a>
+                </div>
+            </div>
+
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>R&D Mechanical Engineer Intern </strong></div>
+                        <div class="exp-subtitle">Mitrex | Jan - April 2025</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Designed and 3D printed 15+ fixtures and mechanical components, including five unique
+                                components and a
+                                fully functional prototype, improving framing machine efficiency by 30% and operator
+                                ergonomics through
+                                pneumatic system refinements and PLC wiring integration.</li>
+                            <li>Assisted in laying out a new assembly line in AutoCAD and SolidWorks, working with cross
+                                functional teams
+                                to select and integrate updated equipment into the line.</li>
+                            <li>Utilized various power tools, including CNC routers and milling machines, gaining
+                                practical experience in
+                                manufacturing processes and mechanical system adjustments.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+
+             <button class="view-photos-btn" onclick="toggleDropdown('dropdown3')">View Photos</button>
+
+            <div class="photo-dropdown" id="dropdown3">
+                <div class="slideshow-container" id="slideshow3">
+                    <div class="slide-counter"><span class="current-slide">1</span> / <span
+                            class="total-slides">1</span></div>
+
+                    <div class="slide active">
+                        <img src="Mitrex1.jpeg" alt="Mitrex">
+                    </div>
+
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow3')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow3')">&#10095;</a>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Test Engineer </strong></div>
+                        <div class="exp-subtitle">Mobile Climate Control | May - Aug 2024</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Took wind tunnel automation from concept to a fully operational system, designing and
+                                programming PLC
+                                and HMI logic in CLICK programming and CLICK HMI software; integrated CAN bus
+                                communication to read
+                                live sensor and actuator data across the DAQ network, replacing manual operation with a
+                                repeatable
+                                automated process across 20 test cycles.</li>
+                            <li>Generated electrical and pneumatic schematics in AutoCAD, consolidating PID control
+                                systems and
+                                integrating pneumatic actuators, solenoids, thermocouples, RTDs, and DAQ units for
+                                automotive test
+                                automation and connection to SCADA.</li>
+                            <li>Analyzed wind tunnel data and component performance through SolidWorks CAD modeling and
+                                FEA
+                                simulations (Thermal & Linear Static Analysis), generating detailed engineering
+                                documentation and reports
+                                for design verification.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+
+            <button class="view-photos-btn" onclick="toggleDropdown('dropdown4')">View Photos</button>
+
+            <div class="photo-dropdown" id="dropdown4">
+                <div class="slideshow-container" id="slideshow4">
+                    <div class="slide-counter"><span class="current-slide">1</span> / <span
+                            class="total-slides">3</span></div>
+
+                    <div class="slide active">
+                        <img src="mcc3.jpeg" alt="Mobile Climate Control 1">
+                    </div>
+
+                    <div class="slide">
+                        <img src="mcc1.jpeg" alt="Mobile Climate Control 2">
+                    </div>
+
+                    <div class="slide">
+
+                        <img src="mcc2.jpeg" alt="Mobile Climate Control 3">
+                    </div>
+
+                    <a class="prev" onclick="changeSlide(-1, 'slideshow4')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'slideshow4')">&#10095;</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <h2 style="text-align: left; font-size: 36px;">Project Highlights</h2>
+
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Automatic Plant Watering System | May 2026</strong></div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li> Built a Wi-Fi enabled Arduino (ESP32) irrigation system in C++ with DHT22 sensors, transmitting real-time 
+environmental telemetry via MQTT and HTTPS POST requests to a secure web server for remote monitoring. </li>
+                            <li>Parsed and analyzed logged sensor data in Python to identify trends and threshold breaches, using root
+cause style calibration to improve watering accuracy to within ±0.5°C and 2–5% humidity. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Automated Conveyor Sorting System | April 2026</strong></div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Designed and programmed an automated conveyor sorting system in Sysmac Studio using photoelectric 
+sensors to classify products based on material and size, sketching a rough layout in CAD and collaborating 
+with teammates on the build. </li>
+                            <li>Integrated HMI visualization and real-time monitoring to optimize sorting logic and system efficiency, 
+reducing manual handling time by 40% while ensuring consistent detection accuracy.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Car Rental System | November 2025</strong></div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li> Implemented object-oriented programming concepts such as inheritance and polymorphism to create a 
+hierarchy of 8 car classes. The inheritance structure allowed for shared functionality across different car 
+types, promoting code reusability. </li>
+                            <li>Utilized a file as the central database for storing car information that would be read and written as the user 
+interacted with the system. Ensured data consistency and efficient management of rental car details.  
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+        </section>
+
+        <section class="section">
+            <h2 style="text-align: left; font-size: 36px;">Extracurricular Activities & Leadership</h2>
+
+<div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Events/Marketing Director</strong> </div>
+                        <div class="exp-subtitle">McMaster TCF Association | June 2026 - Present</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Directed the club’s marketing strategy and digital presence, creating targeted campaigns that increased student engagement and event turnout across McMaster’s campus.</li>
+                            <li>Planned and executed high‑impact events, managing logistics, budgeting, promotions, and team coordination to deliver smooth, well‑attended experiences  </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<br>
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Design Team Lead</strong> </div>
+                        <div class="exp-subtitle">McMaster B. Tech Student Association | Oct 2022 - Sep 2025</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Led business planning, sales strategy, and digital marketing initiatives, increasing
+                                revenue and brand
+                                visibility while securing event sponsorships and partnerships and boosting sales by 25%.
+                            </li>
+                            <li>Led the club’s website and merchandise design initiatives while also supporting event
+                                logistics to ensure cohesive branding and smooth execution.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+             <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Electronics Design Team</strong> </div>
+                        <div class="exp-subtitle">McMaster Mars Rover Team | Sep 2024 - Feb 2025</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Engineered and tested rover electronics; handled PCB wiring, sensor integration, and Arduino-based 
+subsystem, troubleshooting issues and ensuring subsystems met performance reliability.</li>
+                            <li>Streamlined and refined 12 mechanical assemblies using SolidWorks; documented electrical architecture 
+and design changes to support build and integration for a NASA-affiliated rover launch project.  </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<br>
+            <div class="experience-card">
+                <div class="exp-left">
+                    <div class="exp-text">
+                        <div class="exp-title"><strong>Lead Project Manager</strong> </div>
+                        <div class="exp-subtitle">Deltahacks 9 Hackathon  | January 2025</div>
+                        <ul style="margin: 10px 0; padding-left: 20px; font-size: 17px;">
+                            <li>Led a team of 4 through a 48-hour build cycle managing task delegation, and final demo prep, while coding 
+key front-end interactions to hit the submission deadline with 4 core features fully functional.
+                            </li>
+                            <li>Generated an intuitive and visually appealing online learning platform using Figma and HTML. Enhanced 
+user comprehension by 10% and achieved 90% user satisfaction. </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </section>
+    </div>
+
+
+    <footer style="text-align: center;">
+        &#169; Sufyan Siddiqui
+    </footer>
+
+
+
+
+    <script>
+        function toggleDropdown(dropdownId) {
+            const dropdown = document.getElementById(dropdownId);
+            dropdown.classList.toggle('active');
+        }
+
+        function changeSlide(direction, slideshowId) {
+            const slideshow = document.getElementById(slideshowId);
+            const slides = slideshow.getElementsByClassName('slide');
+            const counter = slideshow.querySelector('.current-slide');
+
+            let currentIndex = 0;
+            for (let i = 0; i < slides.length; i++) {
+                if (slides[i].classList.contains('active')) {
+                    currentIndex = i;
+                    slides[i].classList.remove('active');
+                    break;
+                }
+            }
+
+            currentIndex += direction;
+
+            if (currentIndex >= slides.length) {
+                currentIndex = 0;
+            } else if (currentIndex < 0) {
+                currentIndex = slides.length - 1;
+            }
+
+            slides[currentIndex].classList.add('active');
+            counter.textContent = currentIndex + 1;
+        }
+    </script>
+</body>
+
+</html>
